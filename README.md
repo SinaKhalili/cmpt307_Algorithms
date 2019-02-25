@@ -2,11 +2,11 @@
 
 Algorithms and homework to aid my study of algorithms class. 
 
-1. Chapter 0
+## Chapter 0
   * Fibonacci
   * Big(O)
   * Numbers of digits from base to base
-2. Chapter 1
+## Chapter 1
   * Addition/Subtraction (running times)
   * Multiplication/Division (running times)
   * Modular Arithmetic
@@ -16,5 +16,6 @@ Algorithms and homework to aid my study of algorithms class.
     * Finding modular inverse
   * RSA algorithm
   * Hashing <- Not covered
-
+## Chapter 2, Divide and conquer
+  * 
 Textbook: Algorithms Sanjoy Dasgupta
