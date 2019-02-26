@@ -1,6 +1,6 @@
 # CMPT307 Algorithms
 
-Algorithms and homework to aid my study of algorithms class. 
+Algorithms and homework to aid my study of algorithms class.
 
 ## Chapter 0
   * Fibonacci
@@ -17,5 +17,11 @@ Algorithms and homework to aid my study of algorithms class.
   * RSA algorithm
   * Hashing <- Not covered
 ## Chapter 2, Divide and conquer
-  * 
+  * Fast multipilcation
+  * Master's Theorem
+  * Binary Search
+  * Mergesort (Recursive and iterative) (show it is optimal)
+  * Median Finding (Using probablity to give number of steps on average)
+  * Fast matrix multiplication (Strassen Algorithm)
+  *
 Textbook: Algorithms Sanjoy Dasgupta
