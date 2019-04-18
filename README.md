@@ -23,5 +23,10 @@ Algorithms and homework to aid my study of algorithms class.
   * Mergesort (Recursive and iterative) (show it is optimal)
   * Median Finding (Using probablity to give number of steps on average)
   * Fast matrix multiplication (Strassen Algorithm)
-  *
+## Chapter 3, Decompositions of Graphs
+  * Depth First Search
+    * Pre and Post ordering
+  * Directed Acyclic Graphs, DAGs
+  * Strongly Connected components 
+
 Textbook: Algorithms Sanjoy Dasgupta
