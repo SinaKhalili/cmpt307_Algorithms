@@ -28,5 +28,8 @@ Algorithms and homework to aid my study of algorithms class.
     * Pre and Post ordering
   * Directed Acyclic Graphs, DAGs
   * Strongly Connected components 
+## Chapter 4, Paths in graphs
+  * Breadth first search
 
 Textbook: Algorithms Sanjoy Dasgupta
+![Algorithms](http://highered.mheducation.com/sites/dl/free/0073523402/cover/DASGUPTA_lg.jpg)
