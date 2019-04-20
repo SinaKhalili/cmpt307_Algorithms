@@ -31,5 +31,6 @@ Algorithms and homework to aid my study of algorithms class.
 ## Chapter 4, Paths in graphs
   * Breadth first search
 
-Textbook: Algorithms Sanjoy Dasgupta
+Class Textbook: [Algorithms Sanjoy Dasgupta](http://highered.mheducation.com/sites/0073523402/index.html)
+
 ![Algorithms](http://highered.mheducation.com/sites/dl/free/0073523402/cover/DASGUPTA_lg.jpg)
