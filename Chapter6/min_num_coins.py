@@ -1,6 +1,29 @@
 ''' Calculate fewest amount of coins given some denominations array 'coins' needed to get to some value'''
 
+def min_num_coins_memo(M, coins, L=None):
+    # Here is the memoized recursive solution
+    # Pros : Calculates only the needed answers
+    # Cons : Can reach max recursion depth quickly
+    if(M < 0):
+        return 1
+    if L is None:
+        L = {}
+        for coin in coins:
+            L[coin] = 1
+    if M in L:
+        return L[M]
+
+    possible_answers = []
+    for coin in coins:
+        possible_answers.append(min_num_coins_memo(M-coin, coins, L))
+    L[M] = min(possible_answers) + 1
+
+    return L[M]
+
 def min_num_coins(M, coins):
+    # Here is the normal dynamic programming solution
+    # Pros: Can handle very large inputs
+    # Cons: Calculates a few redundant answers
 
     L = [float('inf') for i in range(M + 1)]
     P = [0 for i in range(M + 1)]
