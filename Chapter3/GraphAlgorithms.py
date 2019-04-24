@@ -13,12 +13,17 @@ def explore(node, num = 0, visited=None):
     if(visited is None):
         visited = []
     if(node.val in visited):
-        return num, visited
+       return num, visited
     visited.append(node.val)
     num += 1
     node.pre = num
     for n in node.next:
-            num, visited = explore(n, num, visited)
+        print('node.pre %s n.pre %s '% (node.pre, n.pre))
+        if(n.pre != 0 and n.pre< node.pre):
+            print("LOOP DETECTED! DAG STATUS: NOT A DAG")
+            print("Val : %s"%node.val)
+            return num, visited
+        num, visited = explore(n, num, visited)
     num += 1
     node.post = num
     return num, visited

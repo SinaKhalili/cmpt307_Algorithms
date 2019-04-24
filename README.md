@@ -30,6 +30,21 @@ Algorithms and homework to aid my study of algorithms class.
   * Strongly Connected components 
 ## Chapter 4, Paths in graphs
   * Breadth first search
+    * Alarm clock algorithm (Preparation for Djikstra)
+  * Dijkstra's algorithm
+  * Proofs of correctness
+## Chapter 5, Greedy algorithms
+  * Kurskal's algorithm
+  * The cut property
+    * Proof of the cut property
+  * Prim's algorithm
+## Chapter 6, Dynamic Programming
+  * Shortest path in a dag
+  * All dp questions are implicit dags
+  * Longest increasing subsequence
+  * Manhattan tourist problem
+  * Longest common subsequence
+  * Edit text
 
 Class Textbook: [Algorithms Sanjoy Dasgupta](http://highered.mheducation.com/sites/0073523402/index.html)
 

@@ -8,8 +8,7 @@ def min_num_coins_memo(M, coins, L=None):
         return 1
     if L is None:
         L = {}
-        for coin in coins:
-            L[coin] = 1
+        L[0] = 1
     if M in L:
         return L[M]
 
